@@ -136,7 +136,7 @@ Container
   grid-template-rows: auto 1fr auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px), print and (min-width: 768px) {
   .center {
     width: 100%;
   }
@@ -269,7 +269,7 @@ Header
     color: red;
   }
 }
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 540px), print and (min-width: 540px) {
   .header {
     padding: 3rem 0;
   }
@@ -299,7 +299,7 @@ Header
     max-width: 56px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px), print and (min-width: 768px) {
   .header {
     background: none;
   }
@@ -328,7 +328,7 @@ Header
     font-size: 1.2rem;
   }
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 980px), print and (min-width: 980px) {
   .nav-link {
     font-size: 1.4rem;
   }
@@ -340,7 +340,7 @@ Main
 ===============
 */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px), print and (min-width: 768px) {
   .main {
     display: flex;
     flex-direction: column;
@@ -365,7 +365,7 @@ Main
     order: 0;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px), print and (min-width: 768px) {
   .main {
     max-height: 1300px;
   }
@@ -413,7 +413,7 @@ Projects
     }
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px), print and (min-width: 768px) {
   .projects-container {
     gap: 1.2rem;
   }
@@ -524,7 +524,7 @@ Skills
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px), print and (min-width: 1024px) {
   /*
 =============== 
 Education
@@ -592,7 +592,7 @@ Footer
     content: url("assets/images/mouse-click.png");
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px), print and (min-width: 768px) {
   .footer {
     background: none;
   }
