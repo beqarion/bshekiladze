@@ -367,7 +367,7 @@ Main
 }
 @media screen and (min-width: 768px), print and (min-width: 768px) {
   .main {
-    max-height: 1300px;
+    max-height: 1400px;
   }
 }
 
@@ -522,6 +522,7 @@ Skills
   & h3 {
     font-size: 1.2rem;
   }
+  grid-column: span 2;
 }
 
 @media screen and (min-width: 1024px), print and (min-width: 1024px) {
