@@ -254,9 +254,10 @@ Header
   color: var(--clr-text_link-blue);
   font-size: 3vw;
   font-weight: bold;
-  border-bottom: 3px solid var(--clr-text_link-blue);
+  box-shadow: 0 3px;
   transition: all 100ms ease-out;
   &:hover {
+    box-shadow: none;
     border-bottom: 0px;
     color: var(--clr-text_link-light-blue);
   }
@@ -385,10 +386,11 @@ Projects
     line-height: 1.6;
     padding-bottom: 0.3em;
     color: var(--clr-text_link-blue);
-    border-bottom: 3px solid var(--clr-text_link-blue);
+    box-shadow: 0 3px;
     transition: all 30ms ease-out;
     transition: all 100ms ease-out;
     &:hover {
+      box-shadow: none;
       border-bottom: none;
       color: var(--clr-text_link-light-blue);
     }
